@@ -1,18 +1,50 @@
 {
+  "_from": "enhancer-extand",
+  "_id": "enhancer-extand@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha1-pu3ysKskMgqspm4oOXIAD7Nocbw=",
+  "_location": "/enhancer-extand",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "enhancer-extand",
     "name": "enhancer-extand",
-    "version": "0.0.3",
-    "description": "enhancer extand toolkit",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "enhancer"
-    ],
-    "author": "adun1982",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/adun1982/enhancer-extand.git"
-    }
+    "escapedName": "enhancer-extand",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/enhancer-extand/download/enhancer-extand-0.0.6.tgz",
+  "_shasum": "a6edf2b0ab24320aaca66e283972000fb36871bc",
+  "_spec": "enhancer-extand",
+  "_where": "/Users/adun/Documents/temp",
+  "author": {
+    "name": "adun1982"
+  },
+  "bugs": {
+    "url": "https://github.com/adun1982/enhancer-extand/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "enhancer extand toolkit",
+  "homepage": "https://github.com/adun1982/enhancer-extand#readme",
+  "keywords": [
+    "enhancer"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "enhancer-extand",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adun1982/enhancer-extand.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.6"
 }

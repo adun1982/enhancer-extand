@@ -8,7 +8,7 @@ module.exports = {
      */
     data_format: function(array, key) {
 
-        var formated = [];
+        var formated = {};
 
         for (i = 0; i < array.length; i++) {
             formated[array[i][key]] = array[i]
@@ -18,16 +18,17 @@ module.exports = {
     /**
      *
      *
-     * @param {object[]} src
-     * @param {object[]} dst
-     * @param {string} value
+     * @param {array} source 源数据
+     * @param {object} dest 对比数据
+     * @param {string} key 对比键
+     * @param {array} value 同步值
      */
-    data_compar: function(src, dst, value) {
+    data_compare: function(src, dst, key, value) {
         for (i = 0; i < src.length; i++) {
-            name = [src[i].name]
-            if (dst[name]) {
+            field = src[i][key]
+            if (dst[field]) {
                 for (j in value) {
-                    src[i][value[j]] = dst[name][value[j]]
+                    src[i][value[j]] = dst[field][value[j]]
                 }
             }
         }
